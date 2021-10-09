@@ -1,14 +1,16 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route,Link} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import HomePage from './components/Pages/HomePage'
+import NewUser from './components/Pages/NewUser'
 
-export default function App(){
-  return(
-    <div>
+export default function App() {
+  return (
     <Router>
-      <HomePage />
+      <Switch>
+        <Route path='/' exact component={HomePage} />
+        <Route path='/callbacks/newuser' component={NewUser} />
+      </Switch>
     </Router>
-    </div>
   )
 }
 
