@@ -1,16 +1,22 @@
 import React from 'react';
 import
 {
-  introBox
+  introBox,
+  introText
 }
 from './About.module.css';
 
 const About = ()=>{
   return(
-    <div>
     <div className={introBox}>
-      <h1>GeekBot</h1>
-    </div>
+      <div className={introText}>
+      <p>
+        Levelup your techincal discord server to the next level, with the help of GeekBot.
+      </p>
+      <p>
+        
+      </p>
+      </div>
     </div>
   )
 }
