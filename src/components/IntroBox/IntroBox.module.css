@@ -1,0 +1,25 @@
+.introboxContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #BBF2F2;
+    width: 100%;
+    height: 45vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.introText1{
+    color: #022E40;
+    font-size: 6rem;
+    font-weight: bolder;
+    padding: 2.7rem;
+}
+.introText2{
+    color: #023e55;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.geekbotImage{
+    width: 10rem;
+}
