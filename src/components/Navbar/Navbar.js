@@ -8,7 +8,7 @@ import
   navButton
 } from './Navbar.module.css'
 
-import logo from '../../images/logo.svg'
+import logo from '../../images/brand/logo.svg'
 
 const Navbar=()=> {
   return (

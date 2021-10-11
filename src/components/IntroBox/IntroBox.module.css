@@ -1,7 +1,7 @@
 .introboxContainer{
     display: flex;
-    flex-direction: column;
-    background-color: #BBF2F2;
+    flex-direction: row;
+    background-color: #022E40;
     width: 100%;
     height: 45vw;
     justify-content: center;
@@ -9,17 +9,29 @@
 }
 
 .introText1{
-    color: #022E40;
+    /* color: #022E40; */
+    color: white;
     font-size: 6rem;
     font-weight: bolder;
     padding: 2.7rem;
 }
 .introText2{
-    color: #023e55;
+    color: #ffffff;
     font-size: 2rem;
     padding: 1rem;
 }
 
+
 .geekbotImage{
     width: 10rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .introText1{
+        font-size: 4rem;
+    }
+
+    .geekbotImage{
+        width: 6rem;
+    }
 }

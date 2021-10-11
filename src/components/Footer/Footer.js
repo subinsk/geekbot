@@ -1,12 +1,12 @@
 import React from 'react';
 import {
   footerContainer,
-  quicklinks,
-  footerAbout,
-  footerBtn,
-  copyright,
   footerContent1,
-  footerContent2
+  quicklinks,
+  footerBtn,
+  footerAbout,
+  footerContent2,
+  copyright,
 } from './Footer.module.css'
 
 const Footer = () => {

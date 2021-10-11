@@ -3,6 +3,10 @@
     width: 100%;
     justify-content: space-between;
     padding: 0.4rem;
+    position: fixed;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 0 #022E40;
+    z-index: 99;
 }
 
 .autofix{
@@ -13,7 +17,7 @@
 .logoStyle{
     max-height: 20rem;
     max-width: 40rem;
-    height: 3rem;
+    height: 2.5rem;
 }
 
 .navButtons{
@@ -28,5 +32,13 @@
     background-color: #56BFBF;
     padding: 9px;
     border-radius: 7px;
-    margin: 7px;
+    margin: 4px;
+    font-size: 13px;
+    transition: all 0.2s;
+    border: 0.5px solid #56BFBF;
+}
+
+.navButton:hover{
+    background-color: white;
+    color: #56BFBF;
 }

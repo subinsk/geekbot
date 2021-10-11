@@ -1,24 +1,33 @@
 import React from 'react'
-import 
-{
+import Typewriter from 'typewriter-effect';
+import {
     introboxContainer,
     introText1,
     introText2,
     geekbotImage
 } from './IntroBox.module.css'
 
-import geekbot from '../../images/botimage.jpg';
+import geekbot from '../../images/brand/botimage.jpg';
 
-const IntroBox=()=> {
+
+const IntroBox = () => {
     return (
         <div className={introboxContainer}>
             <p className={introText1}>
-               Hola Everyone ! 
+                GEEKBOT
             </p>
             <p className={introText2}>
-                GeekBot Here 
+            <img className={geekbotImage} src={geekbot} alt='GeekBot' />
+                    <Typewriter
+                        options={{
+                            strings: ['Hello', 'World'],
+                            autoStart: true,
+                            loop: true,
+                            cursor: '_'
+                        }}
+                    />
             </p>
-            <img className={geekbotImage} src={geekbot} alt='GeekBot'/>
+
         </div>
     )
 }
