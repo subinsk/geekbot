@@ -7,6 +7,7 @@ import {
   introHeading,
   introContainerOne,
   introContainerTwo,
+
 }
   from './About.module.css';
 const About = () => {
